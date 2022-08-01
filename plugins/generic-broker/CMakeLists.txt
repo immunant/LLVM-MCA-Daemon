@@ -4,7 +4,7 @@ find_package (Python3 REQUIRED
 
 set(LLVM_EXPORTED_SYMBOL_FILE ${CMAKE_CURRENT_SOURCE_DIR}/Broker.exports)
 
-add_llvm_library(VivisectBroker SHARED
+add_llvm_library(GenericBroker SHARED
   Broker.cpp
 
   LINK_COMPONENTS
